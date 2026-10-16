@@ -1,12 +1,5 @@
 R codes for  project of association between global benzathine benzylpenicillin shortages and resurgence of congenital syphilis: a multi-country cross-sectional study
 
-## Run R files
-
-1. Run 01_descriptive_analysis.R to check the two prepared panels, write input and panel audits, and produce annual descriptive summaries.
-2. Run 02_primary_and_subgroup_analysis.R to fit the live-birth-weighted controlled interrupted time-series model, calculate covariance-aware contrasts, and create the primary plots. Figure 3 is drawn from the supplied subgroup-estimate table and its subgroup models are not refitted.
-3. Run 03_sensitivity_analyses.R to fit the congenital-syphilis sensitivity models, WHO antenatal-service models, quantitative bias analysis, alternative break-year models, and country-label permutations.
-4. Run 04_additional_analyses.R to run the WHO-GBD comparison, IQVIA procurement analyses, available HIV source audits and adjusted negative-control models, and final result and figure checks.
-
 ## Script contents
 
 | File | Main work |
