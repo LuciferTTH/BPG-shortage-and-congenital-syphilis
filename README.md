@@ -1,8 +1,6 @@
-# R script guide
+R codes for  project of association between global benzathine benzylpenicillin shortages and resurgence of congenital syphilis: a multi-country cross-sectional study
 
-Run every script from the extracted analysis_code folder, not from the R folder. The scripts use relative paths for inputs and outputs.
-
-## Run order
+## Run R files
 
 1. Run 01_descriptive_analysis.R to check the two prepared panels, write input and panel audits, and produce annual descriptive summaries.
 2. Run 02_primary_and_subgroup_analysis.R to fit the live-birth-weighted controlled interrupted time-series model, calculate covariance-aware contrasts, and create the primary plots. Figure 3 is drawn from the supplied subgroup-estimate table and its subgroup models are not refitted.
